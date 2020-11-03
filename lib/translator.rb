@@ -23,6 +23,9 @@ def load_library(path)
   emoticons.each do |key, value|
       emoticon_lib[key][:english => value[0], :japanese => value[1]]
     end
+  end
+end
+
 
 def get_japanese_emoticon(path, emoticon)
   emoticon_hash = load_library(path)
