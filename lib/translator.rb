@@ -24,7 +24,7 @@ def load_library(path)
       emoticon_lib[key][:english => value[0], :japanese => value[1]]
     end
   end
-end
+
 
 
 def get_japanese_emoticon(path, emoticon)
